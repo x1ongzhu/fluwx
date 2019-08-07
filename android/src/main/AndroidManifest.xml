@@ -8,7 +8,7 @@
     <application>
         <activity
             android:name=".wxapi.WXEntryActivity"
-            android:launchMode="singleTop"
+            android:launchMode="singleTask"
             android:theme="@style/DisablePreviewTheme" />
         <activity
             android:name=".wxapi.WXPayEntryActivity"
@@ -18,7 +18,7 @@
         <activity-alias
             android:name="${applicationId}.wxapi.WXEntryActivity"
             android:exported="true"
-            android:launchMode="singleTop"
+            android:launchMode="singleTask"
             android:targetActivity="com.jarvan.fluwx.wxapi.WXEntryActivity"
             android:theme="@style/DisablePreviewTheme">
 
